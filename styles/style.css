@@ -1,0 +1,21 @@
+*, ::before, ::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	color: #111;
+	font-family: sans-serif;
+	background: linear-gradient(135deg, #f3f3f3, #4285f450);
+	padding: 40px 80px;
+}
+
+body > * {
+	width: 65%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 15px;
+}

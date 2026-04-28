@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+	--font-sans: 'Public Sans', sans-serif;
+
+	--color-brand-50:  color-mix(in srgb, var(--color-brand-500), white 95%);
+	--color-brand-100: color-mix(in srgb, var(--color-brand-500), white 90%);
+	--color-brand-200: color-mix(in srgb, var(--color-brand-500), white 70%);
+	--color-brand-300: color-mix(in srgb, var(--color-brand-500), white 50%);
+	--color-brand-400: color-mix(in srgb, var(--color-brand-500), white 20%);
+	--color-brand-500: #6565ff;
+	--color-brand-600: color-mix(in srgb, var(--color-brand-500), black 10%);
+	--color-brand-700: color-mix(in srgb, var(--color-brand-500), black 25%);
+	--color-brand-800: color-mix(in srgb, var(--color-brand-500), black 45%);
+	--color-brand-900: color-mix(in srgb, var(--color-brand-500), black 65%);
+	--color-brand-950: color-mix(in srgb, var(--color-brand-500), black 85%);
+
+}
